@@ -1,4 +1,4 @@
-// 配置ESP32板载LED控制引脚（默认GPIO2）
+
 const int boardLed = 2;
 
 void setup() {

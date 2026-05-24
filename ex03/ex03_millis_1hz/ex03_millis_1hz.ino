@@ -11,8 +11,7 @@ void setup() {
 
 void loop() {
   unsigned long currentTime = millis();  // 获取当前系统时间
-
-  // 非阻塞延时判断，不影响其他程序运行
+ // 非阻塞延时判断，不影响其他程序运行
   if (currentTime - previousRecordTime >= blinkDuration) {
     previousRecordTime = currentTime;    // 更新时间记录
     currentLEDStatus = !currentLEDStatus;// 翻转LED状态

@@ -13,8 +13,7 @@ void loop() {
   digitalWrite(boardLed, HIGH);
   Serial.println("Status: LED is ON");
   delay(1000);
-  
-  // 熄灭LED并打印状态
+   // 熄灭LED并打印状态
   digitalWrite(boardLed, LOW);
   Serial.println("Status: LED is OFF");
   delay(1000);

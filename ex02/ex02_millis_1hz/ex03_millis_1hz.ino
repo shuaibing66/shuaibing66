@@ -8,7 +8,6 @@ void setup() {
   pinMode(onboardLED, OUTPUT);   // 设置LED引脚为输出模式
   Serial.begin(115200);          // 初始化串口通信
 }
-
 void loop() {
   unsigned long currentTime = millis();  // 获取当前系统时间
 

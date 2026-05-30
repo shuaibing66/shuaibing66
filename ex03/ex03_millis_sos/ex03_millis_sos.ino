@@ -5,7 +5,6 @@ int flashCount = 0;
 int shortCounter = 0;
 int longCounter = 0;
 unsigned long previousMillis = 0;
-
 // 时间参数（毫秒）
 const int SHORT_DUR = 200;   // 短闪亮的时间
 const int SHORT_GAP = 200;   // 短闪之间的灭的时间

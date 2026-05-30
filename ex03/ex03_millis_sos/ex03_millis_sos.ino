@@ -12,7 +12,6 @@ const int LONG_DUR = 600;    // 长闪亮的时间
 const int LONG_GAP = 200;    // 长闪之间的灭的时间（可与短闪间隔一致）
 const int LETTER_GAP = 500;  // 字母之间（S-O 或 O-S）的熄灭间隔
 const int WORD_GAP = 2000;   // 单词结束（一次SOS完成）后的长停顿
-
 void setup() {
   pinMode(ledPin, OUTPUT);
   digitalWrite(ledPin, LOW);

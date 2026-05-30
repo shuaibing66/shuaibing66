@@ -23,7 +23,6 @@ void setup() {
   shortCounter = 0;
   longCounter = 0;
 }
-
 void loop() {
   unsigned long now = millis();
 

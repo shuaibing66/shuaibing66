@@ -1,4 +1,4 @@
-// 作业6：使用millis()函数实现1Hz定时闪烁（亮500ms、灭500ms）
+// 作业2：使用millis()函数实现1Hz定时闪烁（亮500ms、灭500ms）
 const int onboardLED = 2;        // ESP32板载LED引脚
 bool currentLEDStatus = LOW;     // LED当前状态
 unsigned long previousRecordTime = 0;  // 上一次状态切换的时间
@@ -10,7 +10,6 @@ void setup() {
 }
 void loop() {
   unsigned long currentTime = millis();  // 获取当前系统时间
-
   // 非阻塞延时判断，不影响其他程序运行
   if (currentTime - previousRecordTime >= blinkDuration) {
     previousRecordTime = currentTime;    // 更新时间记录
